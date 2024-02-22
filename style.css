@@ -1,0 +1,88 @@
+body {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, #dfc35f, #bbec84);
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: transparent;
+  }
+  .logo {
+    max-width: 20%;
+    height: auto;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav a {
+    margin-right: 30px; 
+    color: #333;
+  }
+  .storyboard {
+    background-color: lightgoldenrodyellow; 
+    padding: 20px;
+  }  
+  .Storyboard-title{ 
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+  .storyboard-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0)
+  }
+  .board-title {
+    color: white;
+  }
+  .storyboard-item iframe {
+    flex-basis: 100px; 
+    flex-grow: 1;
+    flex-shrink: 1; 
+  }  
+  .Gallery-title {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-block: 10px;
+    background-color: lightgoldenrodyellow
+  }
+  .gallery-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 20px;
+    
+  }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    padding: 20px;
+    margin-block: 10px;
+    background: lightgoldenrodyellow;
+  }
+  .about img {
+    width: 100%;
+    grid-column: 1 / span 1;
+  }
